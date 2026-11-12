@@ -1,45 +1,48 @@
 # Portfólio — Vinicius Vasques
 
-Site estático (HTML, CSS e JavaScript em um único arquivo), pronto para o **GitHub Pages**.
+Site estático (HTML, CSS e JavaScript) para o **GitHub Pages**, com endereços limpos, uma página por case, português e inglês e medição com consentimento.
 
-## Arquivos
+- Repositório: https://github.com/viniciusvasques1981/Portfolio
+- Endereço do site: **https://viniciusvasques1981.github.io/Portfolio/**
 
-- `index.html`: o site inteiro (textos, imagens dos cases e estilos).
-- `Vinicius_Vasques_Curriculo.pdf`: o currículo (sem telefone). O botão "Baixar Currículo" já tem esse PDF embutido no `index.html`; o arquivo aqui serve como cópia para links diretos.
-- `.nojekyll`: faz o GitHub Pages publicar os arquivos como estão.
+## Estrutura
 
-## Publicar no GitHub Pages (pela interface)
-
-1. No GitHub, clique em **New repository**. Escolha o nome (por exemplo `portfolio`), deixe como **Public** e crie.
-2. Na página do repositório, clique em **Add file > Upload files** e arraste o conteúdo desta pasta (`index.html`, o PDF, o `README.md` e o `.nojekyll`). Clique em **Commit changes**.
-3. Vá em **Settings > Pages**. Em **Build and deployment**, escolha **Deploy from a branch**, a branch **main** e a pasta **/ (root)**. Clique em **Save**.
-4. Em alguns minutos o endereço aparece na mesma tela:
-   - repositório com o nome `SEU-USUARIO.github.io`: `https://SEU-USUARIO.github.io/`
-   - qualquer outro nome: `https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/`
-
-## Publicar pelo terminal
-
-```bash
-git init
-git add .
-git commit -m "Portfólio"
-git branch -M main
-git remote add origin https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
-git push -u origin main
+```
+index.html                    página inicial
+sobre/                        Sobre mim
+privacidade/                  política de privacidade
+cases/mrv-360/  cases/mrs/  cases/anglo-american/  cases/zig4plan/  cases/emvita/  cases/miobike/  cases/vaxie/
+assets/                       estilos, scripts, imagens, fontes e o currículo em PDF
+assets/config.js              IDs de medição
+404.html  robots.txt  sitemap.xml  .nojekyll
 ```
 
-Depois siga o passo 3 acima.
+## 1. Publicar
 
-## Domínio próprio (opcional)
+1. No repositório `Portfolio`, clique em **Add file > Upload files** e envie **todas as pastas e arquivos** deste pacote para a raiz (o `.nojekyll` é oculto e pode ficar de fora).
+2. Em **Settings > Pages**, escolha **Deploy from a branch**, branch **main** e pasta **/ (root)**, e salve.
+3. Em poucos minutos o site abre em **https://viniciusvasques1981.github.io/Portfolio/**.
 
-Em **Settings > Pages > Custom domain**, informe o domínio e aponte o DNS conforme a documentação do GitHub Pages.
+O repositório precisa ser **público** para o Pages gratuito.
 
-## Atualizar o site
+## 2. Medição
 
-Edite o `index.html` (ou envie uma nova versão pelo **Upload files**) e faça o commit. A publicação é refeita sozinha.
+- **Microsoft Clarity:** já configurado (projeto `zcmxvzfp50`).
+- **Google Analytics 4:** crie uma propriedade em analytics.google.com, copie o ID de medição (começa com `G-`) e cole em `assets/config.js`, no campo `ga`. O aviso de cookies e a política de privacidade passam a citar o Google Analytics automaticamente.
+- Os serviços só carregam **depois que o visitante clica em Aceitar** no aviso de cookies. O rodapé tem **Gerenciar cookies** e há uma página de **Política de privacidade**. Revise o texto antes de divulgar; ele não substitui orientação jurídica.
+
+## 3. Google Search Console (opcional)
+
+1. Em search.google.com/search-console, adicione uma propriedade **Prefixo do URL** com `https://viniciusvasques1981.github.io/Portfolio/`.
+2. Verifique pelo método **Arquivo HTML**: baixe o arquivo que o Google fornece (`googleXXXX.html`) e envie para a raiz do repositório.
+3. Envie o sitemap: `https://viniciusvasques1981.github.io/Portfolio/sitemap.xml`.
+
+## 4. Atualizar
+
+Edite o arquivo e faça o commit. As imagens ficam em `assets/img/` e carregam sob demanda. O currículo fica em `assets/Vinicius_Vasques_Curriculo.pdf` (sem telefone).
 
 ## Observações
 
-- O repositório público expõe todo o conteúdo do site, inclusive as telas dos cases. Revise se há dados internos de clientes antes de publicar.
-- Os protótipos do Figma nos cases carregam do próprio Figma (`embed.figma.com`) e as fontes carregam do Google Fonts. As demais imagens e o PDF do currículo estão dentro do `index.html`.
-- A navegação usa endereços com `#` (por exemplo `/#case-mrs`), que funcionam no GitHub Pages sem configuração extra.
+- A fonte Outfit é hospedada no próprio site.
+- Os protótipos do Figma e as pré-visualizações do Behance e do Instagram são carregados desses serviços quando o visitante os abre.
+- Endereços padronizados: `/sobre/`, `/cases/nome-do-case/`, `/privacidade/`.
