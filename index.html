@@ -473,6 +473,10 @@ body.case-view .consent{bottom:calc(5.5rem + env(safe-area-inset-bottom,0px))}
 .cs-d{font-size:.9rem;line-height:1.5;color:var(--muted);margin:.35rem 0 0}
 .cs-d a{color:var(--cyan)}
 .cs-a{display:flex;justify-content:flex-end;gap:.6rem;margin-top:.9rem}
+/* texto corrido ocupa toda a largura do conteudo */
+.sh,.sh:has(.lead2),.sh p,.ab-head p,.about-head p,.ab-p,.ab-ul,.tr,.note,.ag-desc,.lead2,.scope,.conf-note,.page-grid .lead,.case-head .desc,.cs .prose,.prose,.story p{max-width:none}
+.story p{width:100%}
+.story p,.sh p,.ab-head p,.about-head p,.ab-p{font-size:clamp(1.0625rem,.97rem + .3vw,1.1875rem);line-height:1.65}
 .proto{margin-top:2.5rem}
 .proto-head{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-bottom:1rem}
 .proto-head h2{font-weight:500;font-size:1.25rem;line-height:1.25;margin:0}
