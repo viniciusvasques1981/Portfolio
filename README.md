@@ -16,7 +16,7 @@ Desde 2008 mantenho, em paralelo, a Studio8 Brand, uma consultoria de design e b
 
 Estou em transição de Staff Product Designer para Product Manager. Levo para a gestão de produto o que construí em Discovery, estratégia e arquitetura de produto: ligar o que vejo em campo às metas do negócio e alinhar quem decide com quem executa. Tenho interesse em posições de Product Manager e de Staff Product Designer.
 
-Moro em Belo Horizonte (MG). Falo português, inglês (fluência profissional plena) e espanhol (conhecimento de trabalho limitado).
+Moro em Belo Horizonte (MG). Falo português (nativo), inglês (fluência profissional) e espanhol (fluência intermediária). Uso IA (Claude, ChatGPT e Figma AI / Figma Make) para acelerar o Discovery e a prototipação.
 
 ---
 
