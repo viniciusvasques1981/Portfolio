@@ -50,7 +50,7 @@ O portfólio reúne meus principais projetos de produto e UX em operações comp
 
 - Disponível em português e em inglês (botão do globo).
 - Modo claro e escuro.
-- Currículo em PDF para baixar.
+- Currículo em PDF para baixar, em português ou inglês.
 - Funciona no computador, no tablet e no celular.
 
 **Confidencialidade:** os projetos de clientes aparecem com dados adaptados, e os protótipos navegáveis desses projetos não são publicados. As marcas citadas pertencem aos seus titulares.
@@ -70,7 +70,8 @@ A direção, os textos e as decisões são meus. O desenvolvimento do site foi f
 ## O que tem neste repositório
 
 - `index.html`: o site completo.
-- `Vinicius_Vasques_Curriculo.pdf`: o meu currículo.
+- `Vinicius_Vasques_Curriculo.pdf`: o meu currículo em português.
+- `Vinicius_Vasques_Resume_EN.pdf`: o meu currículo em inglês.
 - Três arquivos de áudio (`.m4a`) dos cases da MRV&CO, da MRS e da Anglo American. Os nomes precisam continuar iguais, senão o player do case não aparece.
 - `README.md`: esta página.
 
