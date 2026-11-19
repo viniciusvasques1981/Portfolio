@@ -16,7 +16,7 @@ Desde 2008 mantenho, em paralelo, a Studio8 Brand, uma consultoria de design e b
 
 Estou em transição de Staff Product Designer para Product Manager. Levo para a gestão de produto o que construí em Discovery, estratégia e arquitetura de produto: ligar o que vejo em campo às metas do negócio e alinhar quem decide com quem executa. Tenho interesse em posições de Product Manager e de Staff Product Designer.
 
-Moro em Belo Horizonte (MG). Falo português (nativo), inglês (fluência profissional) e espanhol (fluência intermediária). Uso IA (Claude, ChatGPT e Figma AI / Figma Make) para acelerar o Discovery e a prototipação.
+Moro em Belo Horizonte (MG). Falo português, inglês (fluência profissional plena) e espanhol (conhecimento de trabalho limitado).
 
 ---
 
@@ -50,7 +50,7 @@ O portfólio reúne meus principais projetos de produto e UX em operações comp
 
 - Disponível em português e em inglês (botão do globo).
 - Modo claro e escuro.
-- Currículo em PDF para baixar, em português ou inglês.
+- Currículo em PDF para baixar.
 - Funciona no computador, no tablet e no celular.
 
 **Confidencialidade:** os projetos de clientes aparecem com dados adaptados, e os protótipos navegáveis desses projetos não são publicados. As marcas citadas pertencem aos seus titulares.
@@ -70,8 +70,7 @@ A direção, os textos e as decisões são meus. O desenvolvimento do site foi f
 ## O que tem neste repositório
 
 - `index.html`: o site completo.
-- `Vinicius_Vasques_Curriculo.pdf`: o meu currículo em português.
-- `Vinicius_Vasques_Resume_EN.pdf`: o meu currículo em inglês.
+- `Vinicius_Vasques_Curriculo.pdf`: o meu currículo.
 - Três arquivos de áudio (`.m4a`) dos cases da MRV&CO, da MRS e da Anglo American. Os nomes precisam continuar iguais, senão o player do case não aparece.
 - `README.md`: esta página.
 
