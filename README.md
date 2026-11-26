@@ -1,6 +1,6 @@
 # Portfólio — Vinicius Vasques
 
-**Staff Product Designer.** Transformo operações complexas e gargalos operacionais em produtos digitais escaláveis e orientados a valor de negócio.
+**Product Manager e Staff Product Designer.** Transformo operações complexas e gargalos operacionais em produtos digitais escaláveis e orientados a valor de negócio.
 
 Veja o portfólio: **https://viniciusvasques1981.github.io/Portfolio/**
 
@@ -14,9 +14,9 @@ Hoje sou Staff Product Designer no Grupo FCamara, atuando para a MRV&CO desde ma
 
 Desde 2008 mantenho, em paralelo, a Studio8 Brand, uma consultoria de design e branding.
 
-Estou em transição de Staff Product Designer para Product Manager. Levo para a gestão de produto o que construí em Discovery, estratégia e arquitetura de produto: ligar o que vejo em campo às metas do negócio e alinhar quem decide com quem executa. Tenho interesse em posições de Product Manager e de Staff Product Designer.
+Atuo como Product Manager no Portal 360 e busco a função formal de Product Manager. Levo para a gestão de produto o que construí em Discovery, estratégia e arquitetura de produto: ligar o que vejo em campo às metas do negócio e alinhar quem decide com quem executa. Tenho interesse em posições de Product Manager e de Staff Product Designer.
 
-Moro em Belo Horizonte (MG). Falo português, inglês (fluência profissional plena) e espanhol (conhecimento de trabalho limitado).
+Moro em Belo Horizonte (MG). Idiomas: português (fluência nativa), inglês (fluência avançada para trabalho) e espanhol (fluência intermediária para trabalho).
 
 ---
 
@@ -91,3 +91,17 @@ Para ativar o Google Analytics ou mudar algo no texto, é só me pedir uma nova 
 - Behance: https://www.behance.net/studio8brand
 - Instagram: https://www.instagram.com/studio8brand
 - Medium: https://medium.com/@viniciusvasques
+
+
+---
+
+## Estrutura do pacote
+
+Arquivos soltos na raiz, sem subpastas (upload simples pela web):
+
+- `index.html`: aplicação completa (HTML, CSS, JS, imagens e fontes embutidos)
+- `Vinicius_Vasques_Curriculo.pdf` e `Vinicius_Vasques_Resume_EN.pdf`: currículos
+- `og-image.png`: prévia em redes sociais
+- `*.m4a`: áudios dos cases
+- `robots.txt` e `sitemap.xml`: indexação (uma única URL, pois as rotas usam hash `#`)
+- `.nojekyll`: desativa o Jekyll no GitHub Pages
