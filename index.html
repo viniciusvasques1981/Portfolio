@@ -978,6 +978,37 @@ main:has(.hero) .section .eyebrow::before{background:none;color:var(--cyan)}
 .dec-b p{margin:0;font-size:1.05rem;line-height:1.6;max-width:36em}
 .dec-b>div:nth-child(2) p{color:var(--ink);padding-left:1rem;border-left:2px solid var(--pop)}
 @media (max-width:900px){.dindex ol{grid-template-columns:1fr}.dec-i{grid-template-columns:1fr;gap:.5rem}.dec-b{grid-template-columns:1fr}}
+/* r7: escala tipografica recalibrada (mesmas familias; tamanhos e pesos mais graduados) */
+:root{--w-display:360;--w-title:400;--w-ui:450}
+.hero h1 .nm{font-size:clamp(2.7rem,6.6vw,5.4rem);font-weight:var(--w-display);letter-spacing:-.03em;line-height:1.02}
+.hero h1 .rl{font-size:clamp(1.25rem,2.5vw,1.95rem);font-weight:var(--w-display);letter-spacing:-.02em}
+.hero .sub{font-size:clamp(1.08rem,1.5vw,1.3rem);font-weight:var(--w-display);line-height:1.4}
+.section h2,.section h2.h2-lg,.band h2{font-size:clamp(1.85rem,3.5vw,2.8rem);font-weight:var(--w-display);letter-spacing:-.022em;line-height:1.1}
+.sec-head h2.h2-sm{font-size:clamp(1.35rem,2.1vw,1.7rem);font-weight:var(--w-title);letter-spacing:-.012em}
+.lead2{font-size:clamp(1.05rem,1.3vw,1.2rem);font-weight:var(--w-display);line-height:1.5}
+.features .ft,.ft{font-size:clamp(1.35rem,1.9vw,1.7rem);font-weight:var(--w-title);letter-spacing:-.012em;line-height:1.18}
+.cta-big,#contato .cta-big{font-size:clamp(2.2rem,5vw,4rem);font-weight:var(--w-display);letter-spacing:-.03em;line-height:1.04}
+.pn{font-size:clamp(1.3rem,2.4vw,1.95rem);font-weight:var(--w-display)}
+.case-head h1{font-size:clamp(2.3rem,5vw,4rem);font-weight:var(--w-display);letter-spacing:-.03em;line-height:1.04}
+.case-head .desc{font-size:clamp(1.1rem,1.5vw,1.3rem);font-weight:var(--w-display);line-height:1.45}
+.ab-head h1,.about-head h1{font-size:clamp(2.1rem,4.2vw,3.4rem);font-weight:var(--w-display);letter-spacing:-.028em}
+.ab-head p:first-of-type{font-size:clamp(1.15rem,1.5vw,1.35rem);font-weight:var(--w-display)}
+.ab-h{font-size:clamp(1.2rem,1.6vw,1.4rem);font-weight:var(--w-title)}
+.dec-hd h2{font-size:clamp(1.85rem,3.3vw,2.6rem);font-weight:var(--w-display);letter-spacing:-.022em}
+.dec-t{font-size:clamp(1.3rem,1.9vw,1.6rem);font-weight:var(--w-title);letter-spacing:-.012em;line-height:1.25}
+.dec-n{font-size:clamp(1.7rem,2.8vw,2.3rem);font-weight:var(--w-display)}
+.dec-b p{font-size:1rem;line-height:1.65}
+.eyebrow,.dindex-t{font-weight:var(--w-ui)}
+.btn{font-weight:var(--w-ui)}
+@media (max-width:640px){.hero h1 .nm{font-size:clamp(2.6rem,13vw,3.6rem)}.case-head h1{font-size:clamp(2.1rem,9vw,2.7rem)}.section h2,.section h2.h2-lg,.band h2{font-size:clamp(1.7rem,7vw,2.1rem)}}
+/* r7b: pesos mais firmes e tracking mais fechado (ref. contraste titulo pesado x corpo regular) */
+:root{--w-display:450;--w-title:500;--w-ui:500}
+.hero h1 .nm,.case-head h1,.cta-big,#contato .cta-big,.ab-head h1,.about-head h1{letter-spacing:-.036em;line-height:1.02}
+.section h2,.section h2.h2-lg,.band h2,.dec-hd h2{letter-spacing:-.03em;line-height:1.06}
+.hero h1 .rl{font-weight:420}
+.story p,.sh p,.ab-p,.card p,.dec-b p{font-weight:350}
+/* r8: com 2 colunas, o primeiro card ocupa a linha inteira e os outros dois ficam lado a lado abaixo */
+@media (min-width:821px) and (max-width:1100px){.features>a:last-child:nth-child(odd){grid-column:auto}.features>a:first-child{grid-column:1/-1}.features>a:first-child .cover{aspect-ratio:21/9}}
 </style>
 </head>
 <body>
